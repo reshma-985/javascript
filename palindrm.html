@@ -1,0 +1,27 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+var num=2,temp,sum=0,rem;
+temp=num;
+while(num!=0)
+{
+rem=num/10
+sum=sum*10+rem
+num=parseInt(num/10)
+}
+if(sum==temp)
+{
+document.write(temp+"it is palindrom");
+}
+else{
+document.write(temp+"it is not palindrom");
+}
+
+
+
+
+</script>
+</body>
+</html>

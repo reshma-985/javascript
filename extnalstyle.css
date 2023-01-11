@@ -1,0 +1,23 @@
+table{
+display:inline;
+position:relative;
+padding-left:100px;
+}
+
+a{
+text-decoration:none;
+font-size:20px;
+line-height:60px;
+}
+nav{
+display:block;
+padding-top:50px;
+top:0px;
+}
+td{
+padding:40px;
+border-radius:30px;
+cell spacing:20px;
+
+
+}
