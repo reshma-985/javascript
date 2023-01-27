@@ -1,0 +1,26 @@
+<html>
+<head>
+</head>
+<body>
+<script>
+function student(stname,stclass,stgrade,stphone){
+this.stname=stname;
+this.stclass=stclass;
+this.stgrade=stgrade;
+this.stphone=stphone;
+}
+var s1=new student("reshma",10,2,123);
+var s2=new student("sudha",10,1,124);
+var s3=new student("priya",10,5,125);
+var s4=new student("sara",10,4,126);
+var arr=[s1,s2,s3,s4];
+var tops=[];
+var ourstudents=arr.filter((dlf)=>{return dlf.stphone>5});
+for(stu of ourstudents)
+{
+tops.push(stu.stname)
+}
+document.write(tops.sort());
+</script>
+</body>
+</html>
