@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bus ticket</title>
+    <style>
+body{
+    background-color:orange ;
+}
+.details{
+   padding:5px;
+    font-size: medium;
+    color:black;
+    border: 2px,solid,black;
+}
+#date{
+    margin-left:45px;
+}
+#name{
+    margin-left:35px;
+}
+#number{
+    margin-left:-8px;
+}
+#gst{
+    margin-left:48px;
+}
+    </style>
+</head>
+<body>
+
+    
+        <div class="details">
+    <h1>  ticket reservation</h1>
+<label>Name:</label>
+<input type="text" id="name">
+<br><label>place:</label>
+<input type="text" id="place">
+<br><label >Destination:</label>
+<select id="destination">
+    <option value=></option>
+<option value="1200">Tirupati</option>
+<option value="1500">chennai=</option>
+<option value="2000">goa</option>
+<option value="1500">amaravathi</option>
+</select>
+
+<br><label>Date:</label>
+<input type="date" id="date">
+<br><label> No of ticekts:</label>
+  <input type="term" id="number">
+<table>
+    <tr>
+        <th> <button onclick="myticket()">submit</button></th>
+        <th> <button onclick>reset</button></th>
+    </tr>
+</table>
+<label id="total"></label>
+<script>
+function myticket(){
+     var name=document.getElementById("name").value;
+     var place=document.getElementById("place").value;
+     var Dest=document.getElementById("destination").value;
+     var num=document.getElementById("number").value;
+var totalamount=0;
+var totalkm=0;
+     var totalkm=parseInt(Dest*5);
+     var ticketamount=parseInt(totalkm*num);
+     var gst=parseInt(18/100);
+var comp=parseInt(ticketamount*gst);
+var total=parseInt(ticketamount+comp);      
+     
+     console.log(total,totalkm,totalamount,gst);
+    document.getElementById("total").innerHTML="hey your ticket amount is:"+ total
+
+
+
+
+}
+
+</script>
+
+</div> 
+    
+</body>
+</html>
