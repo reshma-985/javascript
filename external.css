@@ -1,0 +1,72 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+.service{
+  background-color: black;
+}
+h1{
+color:aliceblue;
+font-family: 'Great Vibes', cursive;
+
+}
+h3{
+    color: aqua;
+    font-family: 'Great Vibes', cursive;
+    margin-top:-15px;
+}
+.mainpage{
+    background-color: black;
+    margin-bottom:50px;
+}
+
+table{
+border:2px solid grey;
+width:250px;
+padding:10px; 
+margin: 15px;
+background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFSJ79EFMkYCWWyUA-E-LSvNi5-uwYeIfYXA&usqp=CAU");
+background-repeat: no-repeat;
+color: wheat; 
+}
+.collapse{
+    background-color: black;
+}
+#mypage{
+    background-color: black;  
+}
+  .footer{
+    background-color:black;
+    color: aliceblue;
+  }
+  .navi{
+    margin-left:800px;
+margin-top: -150px;
+    padding: 20px;
+    display:flex;
+    word-spacing:20px;
+  }
+  a{
+    text-decoration: none;
+    color:aliceblue;
+  }
+  .resh1{
+    background-color: black;
+    color: aliceblue;
+    padding:10px;
+}
+#box{
+  color: black;
+  margin-left:800px;
+}
+
+.ab1{
+    padding:10px;
+    background-color: black;
+    color: aliceblue;
+}
+#ab{
+  background-color: black;
+  color: aliceblue;
+}
